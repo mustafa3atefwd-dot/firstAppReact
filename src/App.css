@@ -1,0 +1,68 @@
+.home-section {
+  background-color:#1ABC9C;
+ 
+}
+.About-section {
+  background-color:#1ABC9C;
+ 
+}
+.navbar{
+    background-color: #2C3E50;
+}
+
+.text::after{
+    content: "";
+    border: 2px solid #fff;
+    width: 90px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+
+}
+.text::before{
+    content: "";
+    border: 2px solid #fff;
+    width: 90px;
+    position: absolute;
+    bottom: -10px;
+    right: 50%;
+}
+.text-2::after{
+    content: "";
+    border: 2px solid #2C3E50;
+    width: 90px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+
+}
+.text-2::before{
+    content: "";
+    border: 2px solid #2C3E50;
+    width: 90px;
+    position: absolute;
+    bottom: -10px;
+    right: 50%;
+}
+
+
+.caption span{
+    font-size: 10px;
+    color: #fff;
+}
+
+.footer-section{
+    background-color: #2C3E50;
+    text-align: center;
+}
+
+.footer-section h4{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-section span{
+    color: #fff;
+    font-size: 14px;
+}
