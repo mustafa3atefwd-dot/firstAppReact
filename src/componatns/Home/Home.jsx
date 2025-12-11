@@ -1,4 +1,5 @@
 import React from 'react'
+import avatar from "../../assets/Images/Capture.PNG"
 
 export default function 
 () {
@@ -6,7 +7,7 @@ export default function
 
     <div className='home-section py-5 w-100  vh-100 d-flex flex-column justify-content-center align-items-center'>
         <div className="homeContent w-75 mx-auto text-center py-5">
-            <img className='w-25' src="./src/Images/capture.PNG" alt="" />
+            <img className='w-25' src={avatar} alt="" />
         </div>
         <div className="text-center">
             <h1 className='text text-light fs-1 fw-bold fw-italic position-relative'><i className="fa-solid fa-star"></i> START FRAMEWORK <i className="fa-solid fa-star"></i></h1>

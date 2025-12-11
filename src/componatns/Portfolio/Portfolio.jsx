@@ -1,4 +1,7 @@
 import React from 'react'
+import logo1 from  "../../assets/Images/poert1.png"
+import logo2 from  "../../assets/Images/port2.png"
+import logo3 from  "../../assets/Images/port3.png"
 
 export default function Portfolio() {
   return (<>
@@ -9,32 +12,32 @@ export default function Portfolio() {
              <div className="row py-5 g">
             <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
-                  <img className='w-100' src=".\src\Images\poert1.png" alt="" />
+                  <img className='w-100' src= {logo1} alt="" />
               </div>
             </div>
              <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
-                  <img className='w-100' src=".\src\Images\port2.png" alt="" />
+                  <img className='w-100' src={logo2} alt="" />
               </div>
             </div>
              <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
-                  <img className='w-100' src=".\src\Images\poert1.png" alt="" />
+                  <img className='w-100' src={logo3} alt="" />
               </div>
             </div>
                 <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
-                  <img className='w-100' src=".\src\Images\port3.png" alt="" />
+                  <img className='w-100' src={logo3} alt="" />
               </div>
             </div>
              <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
-                  <img className='w-100' src=".\src\Images\port2.png" alt="" />
+                  <img className='w-100' src={logo2} alt="" />
               </div>
             </div>
              <div className="col-lg-4 col-md-6 mb-4">
               <div className="card">
-                  <img className='w-100' src=".\src\Images\port3.png" alt="" />
+                  <img className='w-100' src={logo3} alt="" />
               </div>
             </div>
         </div>
